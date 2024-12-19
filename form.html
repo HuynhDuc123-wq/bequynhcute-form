@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Thu Thập Thông Tin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #6200ea;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4500b5;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Form Thu Thập Thông Tin</h2>
+        <form action="https://formsubmit.co/maduchuynh020303@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Họ và Tên" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Số Điện Thoại" required>
+            <button type="submit">Gửi Thông Tin</button>
+        </form>
+    </div>
+</body>
+</html>
